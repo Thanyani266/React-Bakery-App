@@ -67,7 +67,7 @@ const AboutPage = () => {
           </MDBCol>
           <MDBCol md="6">
             <MDBCardImage
-              src="/Freshly_Baked2.jpg"
+              src="./Freshly_Baked2.jpg"
               alt="about-image"
               className="rounded"
               style={{ maxWidth: "600px" }}

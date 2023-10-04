@@ -24,9 +24,9 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="/madeiracake.webp"
+                    src="./madeiracake.webp"
                     position="top"
-                    alt="madeira cake"
+                    alt="madeira"
                     style={{ maxHeight: "350px" }}
                   />
                   <MDBCardBody style={{ height: "300px" }}>
@@ -61,9 +61,9 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="/monastry.webp"
+                    src="./monastry.webp"
                     position="top"
-                    alt="madeira cake"
+                    alt="monastry"
                     style={{ maxHeight: "350px" }}
                   />
                   <MDBCardBody style={{ height: "300px" }}>
@@ -98,9 +98,9 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="/chocolatecake.webp"
+                    src="./chocolatecake.webp"
                     position="top"
-                    alt="madeira cake"
+                    alt="cocolate"
                     style={{ maxHeight: "350px" }}
                   />
                   <MDBCardBody style={{ height: "300px" }}>
@@ -133,9 +133,9 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="/queencakes.webp"
+                    src="./queencakes.webp"
                     position="top"
-                    alt="madeira cake"
+                    alt="queencakes"
                     style={{ maxHeight: "350px" }}
                   />
                   <MDBCardBody style={{ height: "300px" }}>

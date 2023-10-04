@@ -15,7 +15,7 @@ const Carousel = () => {
       <MDBCarouselItem
         className="w-100 d-block rounded"
         itemId={1}
-        src="/bakery5.jpg"
+        src="./bakery5.jpg"
         alt="hero section"
       >
         <MDBContainer>

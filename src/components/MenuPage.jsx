@@ -20,21 +20,21 @@ const MenuPage = () => {
           style={{ maxHeight: "450px" }}
           className="w-100 d-block rounded"
           itemId={1}
-          src="/cakes-hero.jpg"
+          src="./cakes-hero.jpg"
           alt="..."
         />
         <MDBCarouselItem
           style={{ maxHeight: "450px" }}
           className="w-100 d-block rounded"
           itemId={2}
-          src="/vanillacup.jpg"
+          src="./vanillacup.jpg"
           alt="..."
         />
         <MDBCarouselItem
           style={{ maxHeight: "450px" }}
           className="w-100 d-block rounded"
           itemId={3}
-          src="Mixed-Breads.jpg"
+          src="./Mixed-Breads.jpg"
           alt="..."
         />
       </MDBCarousel>
@@ -45,11 +45,11 @@ const MenuPage = () => {
         <MDBRow>
           <MDBCol md="4">
             <MDBCardImage
-              src="/side-cake1.png"
+              src="./side-cake1.png"
               style={{ maxWidth: "400px", marginTop: "8%" }}
             />
             <MDBCardImage
-              src="/side-cake2.png"
+              src="./side-cake2.png"
               style={{ maxWidth: "400px" }}
               className="mt-2"
             />
@@ -191,7 +191,7 @@ const MenuPage = () => {
           </MDBCol>
           <MDBCol md="4">
             <MDBCardImage
-              src="/side-cupcake1.jpeg"
+              src="./side-cupcake1.jpeg"
               className="rounded"
               style={{ maxWidth: "400px", marginTop: "8%" }}
             />
@@ -202,7 +202,7 @@ const MenuPage = () => {
         <MDBRow>
           <MDBCol md="4">
             <MDBCardImage
-              src="/side-pie1.png"
+              src="./side-pie1.png"
               style={{ maxWidth: "300px" }}
               className="mt-5"
             />
