@@ -1,0 +1,11 @@
+.navb-item p {
+  color: white;
+}
+p.active {
+  background-color: transparent;
+  color: #dc4c64;
+  border-radius: 10%;
+  border: 2px solid #dc4c64;
+  width: 90%;
+  margin-right: 10px;
+}

@@ -1,2 +1,1 @@
-# Bakery-App
-Bakery web app using React. 
+#### React multi-page website for a local bakery
