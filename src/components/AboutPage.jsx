@@ -6,6 +6,7 @@ import {
   MDBTypography,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import FreshlyBaked from '../assets/Freshly_Baked2.jpg';
 
 const AboutPage = () => {
   return (
@@ -67,9 +68,10 @@ const AboutPage = () => {
           </MDBCol>
           <MDBCol md="6">
             <MDBCardImage
-              src="./Freshly_Baked2.jpg"
+              src={FreshlyBaked}
               alt="about-image"
-              className="rounded"
+              className="rounded img-fluid w-100"
+              fluid
               style={{ maxWidth: "600px" }}
             />
           </MDBCol>

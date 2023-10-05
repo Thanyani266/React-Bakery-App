@@ -1,44 +1,44 @@
 import { Link } from "react-router-dom";
 import {
-  MDBCarousel,
-  MDBCarouselItem,
   MDBRow,
   MDBContainer,
   MDBCol,
   MDBBtn,
   MDBTypography,
 } from "mdb-react-ui-kit";
+import Bakery5 from '../assets/bakery5.jpg';
 
 const Carousel = () => {
   return (
-    <MDBCarousel dark fade className="mt-5">
-      <MDBCarouselItem
-        className="w-100 d-block rounded"
-        itemId={1}
-        src="./bakery5.jpg"
+    <div className='bg-image mt-5'>
+      <img
+        className="w-100 img-fluid rounded"
+        src={Bakery5}
         alt="hero section"
-      >
+      />
+      <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+        <div className='d-flex justify-content-center align-items-center h-100'>
         <MDBContainer>
           <MDBRow>
             <MDBCol center style={{ marginBottom: "20%" }}>
               <MDBTypography
                 tag="h2"
-                className="display-4 fw-bolder text-danger"
-                style={{ textShadow: "2px 2px #fff" }}
+                className="display-4 fw-bolder carousel-heading"
               >
                 A Symphony of Flour, Yeast, and Love: The Artisan Bakery
                 Masterpiece
               </MDBTypography>
               <Link to="/menu">
-                <MDBBtn className="btn-lg fs-4 btn-warning">
+                <MDBBtn className="btn-lg btn-warning carousel-btn">
                   Check our Menu
                 </MDBBtn>
               </Link>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-      </MDBCarouselItem>
-    </MDBCarousel>
+        </div>
+      </div>
+    </div>
   );
 };
 

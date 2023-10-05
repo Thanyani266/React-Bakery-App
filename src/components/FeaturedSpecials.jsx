@@ -10,6 +10,10 @@ import {
   MDBCardText,
   MDBCardTitle,
 } from "mdb-react-ui-kit";
+import madeira from '../assets/madeiracake.webp';
+import monastry from '../assets/monastry.webp';
+import chocolate from '../assets/chocolatecake.webp';
+import queencakes from '../assets/queencakes.webp';
 
 const FeaturedSpecials = () => {
   return (
@@ -24,12 +28,12 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="./madeiracake.webp"
+                    src={madeira}
                     position="top"
                     alt="madeira"
-                    style={{ maxHeight: "350px" }}
+                    style={{maxHeight: '350px'}}
                   />
-                  <MDBCardBody style={{ height: "300px" }}>
+                  <MDBCardBody className='featured1'>
                     <MDBCardTitle>Plain Madeira Cake 350g</MDBCardTitle>
                     <MDBCardText>
                       Our bakery offers bread, rolls, French loaves and so much
@@ -61,12 +65,12 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="./monastry.webp"
+                    src={monastry}
                     position="top"
                     alt="monastry"
                     style={{ maxHeight: "350px" }}
                   />
-                  <MDBCardBody style={{ height: "300px" }}>
+                  <MDBCardBody className='featured1'>
                     <MDBCardTitle>Monastry Rolls 6 Pack</MDBCardTitle>
                     <MDBCardText>
                       Pack more flavour into your shopping cart with monastry
@@ -98,12 +102,12 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="./chocolatecake.webp"
+                    src={chocolate}
                     position="top"
                     alt="cocolate"
                     style={{ maxHeight: "350px" }}
                   />
-                  <MDBCardBody style={{ height: "300px" }}>
+                  <MDBCardBody className='featured2'>
                     <MDBCardTitle>Rocky Road Chocolate Cake</MDBCardTitle>
                     <MDBCardText>
                       Freshly baked chocolate cake with delicious toppings.
@@ -133,12 +137,12 @@ const FeaturedSpecials = () => {
               <MDBCol md="6" className="mb-3">
                 <MDBCard className="bg-warning bg-opacity-25">
                   <MDBCardImage
-                    src="./queencakes.webp"
+                    src={queencakes}
                     position="top"
                     alt="queencakes"
                     style={{ maxHeight: "350px" }}
                   />
-                  <MDBCardBody style={{ height: "300px" }}>
+                  <MDBCardBody className='featured2'>
                     <MDBCardTitle>Queen Cakes 10 Pack</MDBCardTitle>
                     <MDBCardText>
                       Queen cakes are a dessert cake prepared with typical cake

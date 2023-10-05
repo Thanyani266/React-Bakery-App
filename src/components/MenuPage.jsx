@@ -11,9 +11,13 @@ import {
   MDBCardText,
   MDBCardImage,
 } from "mdb-react-ui-kit";
-import cakes from '../assets/cakes-hero.jpg'
-import vanilla from '../assets/vanillacup.jpg'
-import Breads from '../assets//Mixed-Breads.jpg'
+import cakes from '../assets/cakes-hero.jpg';
+import vanilla from '../assets/vanillacup.jpg';
+import Breads from '../assets/Mixed-Breads.jpg';
+import sidecakeI from '../assets/side-cake1.png';
+import sidecakeII from '../assets/side-cake2.png';
+import cupcake from '../assets/side-cupcake.png';
+import sidepie from '../assets/side-pie1.png';
 
 const MenuPage = () => {
   return (
@@ -48,13 +52,14 @@ const MenuPage = () => {
         <MDBRow>
           <MDBCol md="4">
             <MDBCardImage
-              src="./side-cake1.png"
+              src={sidecakeI}
               style={{ maxWidth: "400px", marginTop: "8%" }}
+              className="img-fluid w-100"
             />
             <MDBCardImage
-              src="./side-cake2.png"
+              src={sidecakeII}
               style={{ maxWidth: "400px" }}
-              className="mt-2"
+              className="img-fluid w-100 mt-2"
             />
           </MDBCol>
           <MDBCol md="8">
@@ -194,8 +199,8 @@ const MenuPage = () => {
           </MDBCol>
           <MDBCol md="4">
             <MDBCardImage
-              src="./side-cupcake1.jpeg"
-              className="rounded"
+              src={cupcake}
+              className="rounded img-fluid w-100"
               style={{ maxWidth: "400px", marginTop: "8%" }}
             />
           </MDBCol>
@@ -205,9 +210,9 @@ const MenuPage = () => {
         <MDBRow>
           <MDBCol md="4">
             <MDBCardImage
-              src="./side-pie1.png"
+              src={sidepie}
               style={{ maxWidth: "300px" }}
-              className="mt-5"
+              className="img-fluid w-100 mt-5"
             />
           </MDBCol>
           <MDBCol md="8">

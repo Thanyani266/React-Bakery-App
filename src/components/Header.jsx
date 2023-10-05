@@ -6,8 +6,8 @@ import {
   MDBNavbarBrand,
   MDBNavbarToggler,
   MDBIcon,
-  MDBNavbarNav,
   MDBNavbarItem,
+  MDBNavbarNav,
   MDBBtn,
   MDBCollapse,
   MDBTypography,
@@ -50,7 +50,7 @@ const Header = () => {
 
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
-            <MDBNavbarItem className="navb-item">
+          <MDBNavbarItem className='navb-item'>
               <Link to="/">
                 <MDBTypography
                   tag="p"
@@ -64,8 +64,8 @@ const Header = () => {
                   Home
                 </MDBTypography>
               </Link>
-            </MDBNavbarItem>
-            <MDBNavbarItem className="navb-item">
+              </MDBNavbarItem>
+              <MDBNavbarItem className='navb-item'>
               <Link to="/menu">
                 <MDBTypography
                   tag="p"
@@ -77,9 +77,8 @@ const Header = () => {
                   Menu
                 </MDBTypography>
               </Link>
-            </MDBNavbarItem>
-
-            <MDBNavbarItem className="navb-item">
+              </MDBNavbarItem>
+              <MDBNavbarItem className='navb-item'>
               <Link to="/about">
                 <MDBTypography
                   className={`text-uppercase fs-5 mt-3 mx-2 ${
@@ -90,7 +89,7 @@ const Header = () => {
                   About Us
                 </MDBTypography>
               </Link>
-            </MDBNavbarItem>
+              </MDBNavbarItem>
           </MDBNavbarNav>
 
           <form className="d-flex input-group w-auto">
