@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <MDBNavbar expand="lg" fixed="top" light bgColor="warning">
       <MDBContainer fluid>
-        <Link to="/">
+        <Link to="/React-Bakery-App">
           <MDBNavbarBrand className="bg-white rounded-pill text-danger px-1">
             Mben&apos;s bakery
           </MDBNavbarBrand>
@@ -51,7 +51,7 @@ const Header = () => {
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
           <MDBNavbarItem className='navb-item'>
-              <Link to="/">
+              <Link to="/React-Bakery-App">
                 <MDBTypography
                   tag="p"
                   active

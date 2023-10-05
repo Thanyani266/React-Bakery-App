@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route exact path="/" element={<HomePage />}></Route>
+        <Route exact path="/React-Bakery-App" element={<HomePage />}></Route>
         <Route exact path="/menu" element={<MenuPage />}></Route>
         <Route exact path="/about" element={<AboutPage />}></Route>
       </Routes>
