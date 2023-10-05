@@ -11,6 +11,9 @@ import {
   MDBCardText,
   MDBCardImage,
 } from "mdb-react-ui-kit";
+import cakes from '../assets/cakes-hero.jpg'
+import vanilla from '../assets/vanillacup.jpg'
+import Breads from '../assets//Mixed-Breads.jpg'
 
 const MenuPage = () => {
   return (
@@ -20,21 +23,21 @@ const MenuPage = () => {
           style={{ maxHeight: "450px" }}
           className="w-100 d-block rounded"
           itemId={1}
-          src="./cakes-hero.jpg"
+          src={cakes}
           alt="..."
         />
         <MDBCarouselItem
           style={{ maxHeight: "450px" }}
           className="w-100 d-block rounded"
           itemId={2}
-          src="./vanillacup.jpg"
+          src={vanilla}
           alt="..."
         />
         <MDBCarouselItem
           style={{ maxHeight: "450px" }}
           className="w-100 d-block rounded"
           itemId={3}
-          src="./Mixed-Breads.jpg"
+          src={Breads}
           alt="..."
         />
       </MDBCarousel>
